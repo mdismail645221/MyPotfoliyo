@@ -8,12 +8,29 @@
 }
 
 :root {
-  --background-color: #fff;
+  /* --background-color: #fff; */
   --text-color: #555;
   ---titile-color: #000;
 }
 
 .app{
-  background: var(--background-color);
+  /* background: var(--background-color); */
   color: var(--text-color);
+}
+
+
+.common-btn{
+  background-color: #4864ff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.common-btn:hover{
+  background-color: #2444fd;
 }
