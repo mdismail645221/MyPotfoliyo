@@ -5,7 +5,8 @@
         "image": "https://i.ibb.co/JKrF1rM/BIKROY-BAZAR-WEB-PHOTO-png-copy.jpg",
         "title": "Full Stack Projects",
         "github_client_link": "https://github.com/mdismail645221/bikroy_barzar-_client",
-        "github_server_link": "https://github.com/mdismail645221/bikroy_bazar_server"
+        "github_server_link": "https://github.com/mdismail645221/bikroy_bazar_server",
+        "live": "https://bikroy-bazar-c79d8.web.app/"
     },
     {
         "id": 2,
@@ -13,21 +14,33 @@
         "image": "https://i.ibb.co/x2m8jy6/yummy-kitchen-store-final-png-copy.png",
         "title": "Full Stack Projects",
         "github_client_link": "https://github.com/mdismail645221/Yummy-Kitchen-Client",
-        "github_server_link": "https://github.com/mdismail645221/Yummy-Kitchen-Server"
+        "github_server_link": "https://github.com/mdismail645221/Yummy-Kitchen-Server",
+        "live": "https://yummy-kitchen-5875e.web.app/"
     },
     {
         "id": 3,
         "projectName": "TECH SMART EDU",
         "image": "https://i.ibb.co/C54VB79/tech-smart-bd-web-phto-original.png",
         "title": "Front-End Project",
-        "github_client_link": "https://github.com/mdismail645221/TechSmart-Education"
+        "github_client_link": "https://github.com/mdismail645221/TechSmart-Education",
+        "live": "https://mdismail645221.github.io/TechSmart-Education/index.html"
     },
     {
         "id": 4,
         "projectName": "WORLD CUP CAMAPANG",
         "image": "https://i.ibb.co/StVb02B/WORLD-CUP-WEB-OR-PHOTO.png",
         "title": "Front-End Project",
-        "github_client_link": "https://github.com/mdismail645221/world-cup-2022"
+        "github_client_link": "https://github.com/mdismail645221/world-cup-2022",
+        "live": "https://mdismail645221.github.io/world-cup-2022/index.html"
+    }, 
+    {
+        "id": 5,
+        "projectName": "LEARN WITH PLATFROM",
+        "image": "https://i.ibb.co/nnfNF8P/learn-with-web-origal-photo.png",
+        "title": "MERN stack",
+        "github_client_link": "https://github.com/mdismail645221/Learn-with-Platform-client",
+        "github_server_link": "https://github.com/mdismail645221/Learn-with-Platform-server",
+        "live": "https://auth-edu-learning.web.app/"
     }
 
 ]

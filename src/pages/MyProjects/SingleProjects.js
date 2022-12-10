@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SingleProjects = ({project}) => {
-    const { image, title, projectName, github_client_link, github_server_link } = project;
+    const { image, title, projectName, github_client_link, github_server_link, live } = project;
     return (
         <div className="rounded-md shadow-mddark:bg-gray-900 bg-white shadow-lg lg:rounded-lg px-4 py-3">
             {/* <div className="flex items-center justify-between p-3">
@@ -46,8 +46,16 @@ const SingleProjects = ({project}) => {
                         </svg>
                     </button>
                 </div>
+                <div className='flex justify-between py-3'>
+                    <p className='text-lg font-semibold'>{projectName}</p>
+                    <a href={github_client_link} className='text-[blue] hover:underline' target='blank'>Github</a>
+                    {github_server_link  && <a href={github_server_link} className='text-[blue] hover:underline' target='blank'>Server</a>}
+                </div>
+                <div className='flex lg:justify-between space-x-2'>
+                    <a href={live} target="blank" ><button className='common-btn  w-16'>Live site</button></a>
+                    <button className='common-btn'>Details</button>
+                </div>
             </div>
-            <button className='common-btn'>Details</button>
         </div>
     );
 };
