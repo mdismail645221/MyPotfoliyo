@@ -48,8 +48,8 @@ const SingleProjects = ({project}) => {
                 </div>
                 <div className='flex justify-between py-3'>
                     <p className='text-lg font-semibold'>{projectName}</p>
-                    <a href={github_client_link} className='text-[blue] hover:underline' target='blank'>Github</a>
-                    {github_server_link  && <a href={github_server_link} className='text-[blue] hover:underline' target='blank'>Server</a>}
+                    <a href={github_client_link} className='text-[blue] font-bold hover:underline' target='blank'>Github</a>
+                    {github_server_link  && <a href={github_server_link} className='text-[blue]  font-bold hover:underline' target='blank'>Server</a>}
                 </div>
                 <div className='flex lg:justify-between space-x-2'>
                     <a href={live} target="blank" ><button className='common-btn  w-16'>Live site</button></a>
