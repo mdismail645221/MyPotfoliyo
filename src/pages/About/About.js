@@ -5,9 +5,15 @@ import '../About/About.css'
 import downloadResume from '../../assets/images/resume.pdf'
 
 
+
 const About = () => {
     return (
         <section className='about-container text-white pt-16'>
+            <div className='babbles'>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div className=' container mx-auto grid grid-cols-1 md:grid-cols-2 items-center'>
                 {/* left */}
                 <div className='flex flex-col text-center  space-y-4'>
