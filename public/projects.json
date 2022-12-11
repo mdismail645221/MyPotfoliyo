@@ -2,7 +2,10 @@
     {
         "id": 1,
         "projectName": "Bikroy Bazar",
-        "image": "https://i.ibb.co/JKrF1rM/BIKROY-BAZAR-WEB-PHOTO-png-copy.jpg",
+        "image": [
+            {"img1": "https://i.ibb.co/JKrF1rM/BIKROY-BAZAR-WEB-PHOTO-png-copy.jpg"},
+            {"img2": "https://i.ibb.co/6ycRBLG/category-202222.png"}
+        ],
         "title": "Full Stack Projects",
         "github_client_link": "https://github.com/mdismail645221/bikroy_barzar-_client",
         "github_server_link": "https://github.com/mdismail645221/bikroy_bazar_server",
