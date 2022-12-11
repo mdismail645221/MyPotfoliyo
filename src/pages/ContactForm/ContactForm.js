@@ -15,7 +15,6 @@ const ContactForm = () => {
 
         console.log("form", form.current)
        
-
         emailjs.sendForm(`${process.env.REACT_APP_SERVICE_KEY}`, `${process.env.REACT_APP_TEMPLATE_KEY}`, form.current, `${process.env.REACT_APP_PUB_KEY}`)
             .then((result) => {
                 console.log(result.text);

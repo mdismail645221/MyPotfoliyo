@@ -1,0 +1,6 @@
+.ab-right ul {
+    /* list-style: url(../../assets/images/star.png); */
+
+    list-style-position: inside;
+    list-style-type: square;
+}
