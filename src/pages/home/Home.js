@@ -8,7 +8,6 @@ import MyProjects from '../MyProjects/MyProjects';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
             <About></About>
             <MyProjects></MyProjects>
             <AboutMe></AboutMe>

@@ -1,10 +1,11 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Home from './pages/home/Home';
+import { router } from './routes/routes';
 
 function App() {
   return (
     <div className='App bg-slate-200'>
-      <Home></Home>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

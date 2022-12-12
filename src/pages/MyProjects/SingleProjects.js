@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SingleProjects = ({project}) => {
-    const { images, title, projectName} = project;
-    console.log("images", images[0].img1)
+    const { images, title, projectName, _id} = project;
+    console.log("images", images)
     return (
         <div className="rounded-md shadow-mddark:bg-gray-900 bg-white shadow-lg lg:rounded-lg px-4 py-3">
             {/* <div className="flex items-center justify-between p-3">
@@ -22,7 +23,7 @@ const SingleProjects = ({project}) => {
                 </button>
             </div> */}
     
-            <img src={images[0].img1} alt="" className="object-cover object-center w-full h-72 dark:bg-gray-500 rounded-lg" />
+            <img src={images} alt="" className="object-cover object-center w-full h-72 dark:bg-gray-500 rounded-lg" />
             <div className="p-3">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
@@ -54,7 +55,7 @@ const SingleProjects = ({project}) => {
                 </div>
                 <div className='flex lg:justify-end space-x-2'>
                     {/* <a href={live} target="blank" ><button className='common-btn  w-16'>Live site</button></a> */}
-                    <button className='common-btn'>Details</button>
+                    <Link to={`/signProjects/${_id}`}><button className='common-btn'>Details</button></Link>
                 </div>
             </div>
         </div>
