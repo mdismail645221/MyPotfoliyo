@@ -2,9 +2,11 @@
     {
         "id": 1,
         "projectName": "Bikroy Bazar",
-        "image": [
+        "images": [
             {"img1": "https://i.ibb.co/JKrF1rM/BIKROY-BAZAR-WEB-PHOTO-png-copy.jpg"},
-            {"img2": "https://i.ibb.co/6ycRBLG/category-202222.png"}
+            {"img2": "https://i.ibb.co/6ycRBLG/category-202222.png"},
+            {"img3": "https://i.ibb.co/DtMbwDR/dashboard-bb-original.jpg"},
+            {"img4": "https://i.ibb.co/x5Y4ZTR/payment-system-orginal-2022.png"}
         ],
         "title": "Full Stack Projects",
         "github_client_link": "https://github.com/mdismail645221/bikroy_barzar-_client",
@@ -14,7 +16,12 @@
     {
         "id": 2,
         "projectName": "Yummy Kitchen",
-        "image": "https://i.ibb.co/x2m8jy6/yummy-kitchen-store-final-png-copy.png",
+        "images": [
+            {"img1": "https://i.ibb.co/x2m8jy6/yummy-kitchen-store-final-png-copy.png"},
+            {"img2": "https://i.ibb.co/sC0Cmzd/my-reviews-original-2022-JPG-copy.png"},
+            {"img3": "https://i.ibb.co/TbtdzrV/add-service-original-2022.png"},
+            {"img4": "https://i.ibb.co/Wzf4Mw6/ym-reg-2022.png"}
+        ],
         "title": "Full Stack Projects",
         "github_client_link": "https://github.com/mdismail645221/Yummy-Kitchen-Client",
         "github_server_link": "https://github.com/mdismail645221/Yummy-Kitchen-Server",
@@ -23,7 +30,12 @@
     {
         "id": 3,
         "projectName": "TECH SMART EDU",
-        "image": "https://i.ibb.co/C54VB79/tech-smart-bd-web-phto-original.png",
+        "images": [
+            {"img1": "https://i.ibb.co/C54VB79/tech-smart-bd-web-phto-original.png"},
+            {"img2": "https://i.ibb.co/WP72VJj/tech-discover-original-2022.png"},
+            {"img3": "https://i.ibb.co/NNKgCX6/tech-courses-original-2022.png"},
+            {"img4": "https://i.ibb.co/NLhJmvt/tech-designer-original-2022.png"}
+        ],
         "title": "Front-End Project",
         "github_client_link": "https://github.com/mdismail645221/TechSmart-Education",
         "live": "https://mdismail645221.github.io/TechSmart-Education/index.html"
@@ -31,7 +43,12 @@
     {
         "id": 4,
         "projectName": "WORLD CUP CAMAPANG",
-        "image": "https://i.ibb.co/StVb02B/WORLD-CUP-WEB-OR-PHOTO.png",
+        "images": [
+            {"img1": "https://i.ibb.co/hHjMkRf/w-cup-banner-original-2022.png"},
+            {"img2": "https://i.ibb.co/StVb02B/WORLD-CUP-WEB-OR-PHOTO.png"},
+            {"img3": "https://i.ibb.co/JvvxT5y/w-cup-upcomming-m-original-2022.png"},
+            {"img4": "https://i.ibb.co/2gqk4P7/w-cup-footer-original-2022.png"}
+        ],
         "title": "Front-End Project",
         "github_client_link": "https://github.com/mdismail645221/world-cup-2022",
         "live": "https://mdismail645221.github.io/world-cup-2022/index.html"
@@ -39,7 +56,12 @@
     {
         "id": 5,
         "projectName": "LEARN WITH PLATFROM",
-        "image": "https://i.ibb.co/nnfNF8P/learn-with-web-origal-photo.png",
+        "images": [
+            {"img1": "https://i.ibb.co/nnfNF8P/learn-with-web-origal-photo.png"},
+            {"img2": "https://i.ibb.co/VqbxMQ1/learn-course-original-2022.png"},
+            {"img3": "https://i.ibb.co/WfJztkm/learn-couses-download-origianal-2022-copy.png"},
+            {"img4": "https://i.ibb.co/3shPfkR/learn-blog-original-2022.png"}
+        ],
         "title": "MERN stack",
         "github_client_link": "https://github.com/mdismail645221/Learn-with-Platform-client",
         "github_server_link": "https://github.com/mdismail645221/Learn-with-Platform-server",

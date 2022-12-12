@@ -1,7 +1,8 @@
 import React from 'react';
 
 const SingleProjects = ({project}) => {
-    const { image, title, projectName, github_client_link, github_server_link, live } = project;
+    const { images, title, projectName, github_client_link, github_server_link, live } = project;
+    console.log("images", images[0].img1)
     return (
         <div className="rounded-md shadow-mddark:bg-gray-900 bg-white shadow-lg lg:rounded-lg px-4 py-3">
             {/* <div className="flex items-center justify-between p-3">
@@ -20,7 +21,8 @@ const SingleProjects = ({project}) => {
                     </svg>
                 </button>
             </div> */}
-            <img src={image} alt="" className="object-cover object-center w-full h-72 dark:bg-gray-500 rounded-lg" />
+    
+            <img src={images[0].img1} alt="" className="object-cover object-center w-full h-72 dark:bg-gray-500 rounded-lg" />
             <div className="p-3">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
