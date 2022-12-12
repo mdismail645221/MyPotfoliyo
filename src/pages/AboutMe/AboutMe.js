@@ -1,5 +1,6 @@
 import React from 'react';
 import '../AboutMe/AboutMe.css'
+import aboutMe from '../../assets/images/about-me-photo.png'
 
 <script>
   AOS.init();
@@ -26,7 +27,7 @@ const AboutMe = () => {
             {/* --------about me hero start ---------- */}
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2 px-3'>
                 <div>
-                    <a href='#'><img src="" alt="me" /></a>
+                    <img src={aboutMe}  className="object-cover object-center w-full dark:bg-gray-500 rounded-lg" alt="me" />
                 </div>
                 {/* right */}
                 <div className='ab-right'>
@@ -34,7 +35,7 @@ const AboutMe = () => {
                         <h4 className='text-2xl font-semibold'>MERN STACK WEB DEVELOPER</h4>
                         <p className='text-justify'>I am strategic and goal-oriented, and I always work with an end goal in mind. I like to take challenges in everything. I believe I am a good candidate for this position.</p>
                     </div>
-                    <ul>
+                    <ul className='mt-8'>
                         <li><strong className='mr-2'>Date of birth:</strong>24, JULY, 1999</li>
                         <li><strong className='mr-2'>Age:</strong>23</li>
                         <li><strong className='mr-2'>State:</strong>Gazipur, Dhaka, Bangladesh</li>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SingleProjects = ({project}) => {
-    const { images, title, projectName, github_client_link, github_server_link, live } = project;
+    const { images, title, projectName} = project;
     console.log("images", images[0].img1)
     return (
         <div className="rounded-md shadow-mddark:bg-gray-900 bg-white shadow-lg lg:rounded-lg px-4 py-3">
@@ -48,13 +48,12 @@ const SingleProjects = ({project}) => {
                         </svg>
                     </button>
                 </div>
-                <div className='flex justify-between py-3'>
-                    <p className='text-lg font-semibold'>{projectName}</p>
-                    <a href={github_client_link} className='text-[blue] font-bold hover:underline' target='blank'>Github</a>
-                    {github_server_link  && <a href={github_server_link} className='text-[blue]  font-bold hover:underline' target='blank'>Server</a>}
+                <div className='flex justify-between py-5'>
+                    <p className='font-bold text-uppercase'>{projectName}</p>
+                   <p className='text-md font-semibold'>{title}</p>
                 </div>
-                <div className='flex lg:justify-between space-x-2'>
-                    <a href={live} target="blank" ><button className='common-btn  w-16'>Live site</button></a>
+                <div className='flex lg:justify-end space-x-2'>
+                    {/* <a href={live} target="blank" ><button className='common-btn  w-16'>Live site</button></a> */}
                     <button className='common-btn'>Details</button>
                 </div>
             </div>
